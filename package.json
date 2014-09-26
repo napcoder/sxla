@@ -1,0 +1,28 @@
+{
+  "name": "sxla-newsletter",
+  "version": "0.0.1",
+  "description": "sxla\r ====",
+  "main": "app.js",
+  "dependencies": {
+    "csv-parse": "^0.0.6",
+    "stream-transform": "^0.0.6"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/napcoder/sxla.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/napcoder/sxla/issues"
+  },
+  "homepage": "https://github.com/napcoder/sxla"
+}
