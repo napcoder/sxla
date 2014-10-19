@@ -5,7 +5,9 @@
   "main": "app.js",
   "dependencies": {
     "csv-parse": "^0.0.6",
-    "stream-transform": "^0.0.6"
+    "mailchimp-api": "^2.0.6",
+    "stream-transform": "^0.0.6",
+    "winston": "^0.8.1"
   },
   "devDependencies": {
     "chai": "^1.9.1",

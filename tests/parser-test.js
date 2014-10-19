@@ -4,9 +4,14 @@ var chai = require('chai'),
     Parser = require('../lib/parser'),
     should = chai.should(),
     expect = chai.expect;
-
+var logger = {
+    log: function () {},
+    debug: function () {},
+    info: function () {},
+    error: function () {}
+};
 describe('Parser', function () {
-    var parser = new Parser();
+    var parser = new Parser(logger);
 
     describe('parseName', function () {
         [undefined, null, '', '  ', 'asd', '1 2 3 4 5', 'Rocchio Quaranta Sette'].forEach(function (element) {
